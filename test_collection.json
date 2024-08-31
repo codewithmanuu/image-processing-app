@@ -1,0 +1,56 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "imageprocessapp",
+    "collectionId": "f192d890-387d-43ff-a2a7-cccd44e31cce",
+    "dateExported": "2024-08-31T21:48:17.354Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "38e7c226-9d62-4c5b-817b-86c52d87edea",
+            "colId": "f192d890-387d-43ff-a2a7-cccd44e31cce",
+            "containerId": "",
+            "name": "upload",
+            "url": "http://127.0.0.1:8000/api/v1/upload/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-08-30T14:39:11.106Z",
+            "modified": "2024-08-31T20:13:48.230Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "input_file",
+                        "value": "/home/user/Documents/test.csv"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "1eac10dd-0dd0-4da3-9f8e-f49bc604fd94",
+            "colId": "f192d890-387d-43ff-a2a7-cccd44e31cce",
+            "containerId": "",
+            "name": "status",
+            "url": "http://127.0.0.1:8000/api/v1/status/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-08-31T15:20:01.560Z",
+            "modified": "2024-08-31T20:14:05.604Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "request_id",
+                        "value": "4ed87812-d32f-4823-932a-d9a068919d4f"
+                    }
+                ]
+            }
+        }
+    ],
+    "ref": "MkCn3ny4yB2Gn7_-BBZ0NJL5UUKYY8zRjwapB2U13dM0YqGMqd0970mvQ3iITQLOt62uBZXlS5gjqYIiKlygzw"
+}
